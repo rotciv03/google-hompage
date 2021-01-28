@@ -1,0 +1,82 @@
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.main {
+  min-height: 100%;
+}
+
+.header {
+  padding: 15px 10px 0 10px;
+}
+.right-header {
+  float: right;
+}
+.sign-in {
+  color: white;
+  background-color: rgb(42 127 244);
+  border-radius: 8px;
+  border: none;
+  padding: 5px 10px;
+}
+.content {
+  height: 500px;
+  padding: 20px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.google-icon {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search-box {
+  margin-top: 40px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.line-height {
+  line-height: 40px;
+  border-radius: 25px;
+  border-width: 1px;
+ 
+}
+.line-height:hover{
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+.search-btn-and-feelinglucky {
+  margin-top: 60px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  background-color: rgb(245,246,247);
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+}
+.footer {
+  background-color: rgb(240, 240, 240);
+  color: rgb(112, 117, 122);
+  height: 50px;
+  margin-top: -50px;
+  padding-top: 15px;
+}
+.footer-right {
+  float: right;
+}
